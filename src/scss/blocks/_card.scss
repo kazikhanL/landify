@@ -1,0 +1,19 @@
+.card {
+    width: 350px;
+    text-align: center;
+
+    &__inner {
+        margin-top: 24px;
+
+        h4 {
+            font-size: 24px;
+            font-family: $ff-bold;
+            word-wrap: normal;
+        }
+
+        p {
+            margin-top: 13px;
+            font-size: 16px;
+        }
+    }
+}

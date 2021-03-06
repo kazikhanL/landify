@@ -1,0 +1,113 @@
+@media (max-width: 960px) {
+    .nav-list__item li {
+        margin-right: 20px;
+    }
+
+    .nav-list__item:last-child {
+        flex-direction: column;
+
+        li:first-child {
+            margin-right: 0;
+        }
+    }
+
+    .header {
+        &__wrapper h1 {
+            line-height: 50px;
+            font-size: 43px;
+        }
+
+        &__inner img {
+            max-width: 250px;
+        }
+    }
+
+    .clients__list li img {
+        max-width: 80px;
+    }
+
+    .card {
+        width: 330px;
+    }
+
+    .reviews {
+        &__card {
+            width: 100%;
+        }
+
+        &__titles {
+            &::before {
+                width: 101px;
+                top: -45px;
+                left: -71px;
+            }
+
+            .section-title--top {
+                font-size: 30px;
+                line-height: 40px;
+            }
+        }
+    }
+
+    .achievements {
+        padding: 41px 0;
+
+        .card {
+            width: 169px;
+
+            &__inner {
+                h4 {
+                    font-size: 18px;
+                }
+
+                p {
+                    margin-top: 5px;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+
+    .article {
+        &__img-box {
+            $size: 275px;
+            min-width: $size;
+            max-width: $size;
+            min-height: $size;
+            max-height: $size;
+
+            img {
+                width: 175px;
+            }
+        }
+
+        article {
+            margin-left: 35px;
+
+            p {
+                margin-top: 11px;
+                margin-bottom: 11px;
+                font-size: 17px;
+                line-height: 27px;
+            }
+        }
+    }
+
+    .application {
+        &__phone-img {
+            width: 177px;
+        }
+
+        .section-title--top {
+            font-size: 30px;
+            line-height: 37px;
+        }
+        .section-title--bottom {
+            margin-top: 13px;
+        }
+    }
+
+    .footer__links li a {
+        font-size: 11px;
+    }
+}

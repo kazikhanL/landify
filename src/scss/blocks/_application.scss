@@ -1,0 +1,44 @@
+.application {
+    background-color: #2EC5CE;
+
+    .section-wrapper-item {
+        &:first-child {
+            padding: 60px 0;
+        }
+    }
+
+    &__links {
+        margin-top: 48px;
+
+        &-text {
+            font-size: 18px;
+            font-family: $ff-medium;
+            margin-bottom: 13px;
+        }
+
+        a {
+            text-decoration: none;
+
+            img:first-child {
+                margin-right: 7px;
+            }
+        }
+    }
+
+    .section-wrapper-item:last-child {
+        display: flex;
+        justify-content: flex-end;
+        overflow: hidden;
+    }
+    &__phone-img {
+        width: 232px;
+
+        &:first-child {
+            align-self: flex-start;
+        }
+        &:last-child {
+            align-self: flex-end;
+            margin-bottom: -110px;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__item {
+        list-style: none;
+        display: flex;
+        align-items: center;
+
+        li {
+            margin-right: 32px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            a {
+                color: black;
+                font-size: 14px;
+                font-family: $ff-bold;
+                text-decoration: none;
+            }
+        }
+
+        &:last-child {
+            li {
+                margin-right: 12px;
+
+                &:last-child {
+                    margin: 0;
+                }
+            }
+        }
+    }
+}

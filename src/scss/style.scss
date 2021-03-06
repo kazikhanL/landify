@@ -1,0 +1,60 @@
+@import "./libs/normalize";
+@import "./libs/fonts";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: $ff-regular;
+}
+
+.container {
+    width: 90%;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.section-wrapper {
+    width: 100%;
+    display: flex;
+
+    &-item {
+        width: 100%;
+    }
+}
+
+.header,
+.clients,
+.features,
+.reviews,
+.achievements,
+.article,
+.promo,
+.application,
+.footer {
+    overflow: hidden;
+}
+
+@import "./blocks/header";
+@import "./blocks/button";
+@import "./blocks/nav-list";
+@import "./blocks/logo";
+@import "./blocks/clients";
+@import "./blocks/features";
+@import "./blocks/card";
+@import "./blocks/section-title";
+@import "./blocks/reviews";
+@import "./blocks/achievements";
+@import "./blocks/article";
+@import "./blocks/promo";
+@import "./blocks/application";
+@import "./blocks/footer";
+@import "./blocks/animation";
+
+@import "./media/media";
+@import "./blocks/burger-menu";

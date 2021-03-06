@@ -1,0 +1,10 @@
+.logo {
+    display: flex;
+    align-items: center;
+
+    span {
+        margin-left: 10px;
+        font-family: $ff-bold;
+        font-size: 24px;
+    }
+}

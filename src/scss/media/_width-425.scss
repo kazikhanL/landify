@@ -1,0 +1,50 @@
+@media (max-width: 425px) {
+    .header__wrapper h1 {
+        line-height: 41px;
+        font-size: 31px;
+    }
+
+    .section-title--top {
+        font-size: 27px;
+        line-height: 37px;
+    }
+    .section-title--bottom {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .features__box .card {
+        margin-top: 45px;
+        width: 100%;
+
+        &__inner {
+            margin-top: 13px;
+        }
+    }
+
+    .reviews__titles::before {
+        width: 71px;
+        top: -22px;
+        left: -46px;
+    }
+
+    .achievements__box {
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .application__phone-img {
+        width: 140px;
+    }
+
+    .footer {
+        nav .footer__links {
+            flex-direction: column;
+            
+            li {
+                margin-left: 0;
+            }
+        }
+    }
+}

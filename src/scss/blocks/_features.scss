@@ -1,0 +1,21 @@
+.features {
+    padding: 60px 0;
+
+    &__titles {
+        text-align: center;
+        max-width: 540px;
+        margin: 0 auto;
+    }
+
+    &__box {
+        margin-top: 12px;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .card {
+            margin-top: 34px;
+        }
+    }
+}

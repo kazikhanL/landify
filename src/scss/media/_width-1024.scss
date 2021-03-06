@@ -1,0 +1,57 @@
+@media (max-width: 1024px) {
+    .header {
+        &__inner img {
+            max-width: 300px;
+        }
+
+        &__wrapper h1 {
+            line-height: 55px;
+            font-size: 55px;
+        }
+    }
+
+    .section-title {
+        &--top {
+            font-size: 41px;
+            line-height: 51px;
+        }
+
+        &--bottom {
+            font-size: 16px;
+            line-height: 23px;
+        }
+    }
+
+    .reviews__titles::before {
+        width: 130px;
+        left: -90px;
+    }
+
+    .reviews__card--big {
+        width: 100%;
+    }
+
+    .achievements__box .card {
+        max-width: 207px;
+    }
+
+    .article__img-box {
+        $size: 500px;
+        min-width: $size;
+        max-width: $size;
+        min-height: $size;
+        max-height: $size;
+
+        img {
+            width: 313px;
+        }
+    }
+
+    .application__phone-img {
+        width: 211px;
+    }
+
+    .footer__links li a {
+        font-size: 15px;
+    }
+}

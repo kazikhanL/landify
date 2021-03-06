@@ -1,0 +1,54 @@
+.footer {
+    padding: 56px 0;
+    color: white;
+    background-color: #0b0d17;
+
+    .section-wrapper-item {
+        &:last-child {
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+
+    &__apps {
+        &-text {
+            font-size: 18px;
+            font-family: $ff-medium;
+        }
+
+        a {
+            margin-top: 16px;
+            display: block;
+            text-decoration: none;
+        }
+    }
+
+    &__logo {
+        margin-bottom: 14px;
+    }
+
+    &__links {
+        margin-top: 16px;
+        list-style: none;
+        display: flex;
+
+        li {
+            &:nth-child(1n + 2) {
+                margin-left: 20px;
+            }
+
+            a {
+                color: white;
+                font-size: 16px;
+                text-decoration: none;
+            }
+        }
+    }
+
+    address {
+        margin-top: 24px;
+        color: #d9dbe1;
+        font-size: 12px;
+        font-style: normal;
+    }
+}

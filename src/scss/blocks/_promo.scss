@@ -1,0 +1,21 @@
+.promo {
+    padding: 60px 0;
+
+    &__titles {
+        display: flex;
+        justify-content: space-between;
+
+        .section-title {
+            width: 50%;
+
+            &:last-child {
+                margin-top: 7px;
+            }
+        }
+    }
+
+    img {
+        margin-top: 48px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,12 @@
+.section-title {
+    &--top {
+        font-size: 48px;
+        line-height: 68px;
+        font-family: $ff-bold;
+    }
+
+    &--bottom {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}

@@ -1,0 +1,16 @@
+.clients {
+    padding: 20px 0;
+
+    &__line {
+        height: 2px;
+        background: linear-gradient(0.25turn, #ebf8e169, #ebf8e1, #ebf8e169);
+    }
+
+    &__list {
+        margin: 23px 0;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
